@@ -3,7 +3,7 @@ Scripts and processed data for Hibbins &amp; Hahn 2021
 
 ### Key for simulation conditions
 
-s1: High ILS 
+s1: High ILS  
 s2: P3 -> P1 introgression  
 s3: P1 -> P3 introgression  
 s4: Sister introgression  

@@ -1,0 +1,11 @@
+#!/bin/bash
+
+#PBS -m abe
+#PBS -M mhibbins@iu.edu
+#PBS -l walltime=10:00:00,vmem=16GB,nodes=1:ppn=1
+#PBS -N phylonet_s6_analysis_47
+#PBS -e /N/dc2/scratch/mhibbins/outputs
+#PBS -o /N/dc2/scratch/mhibbins/outputs
+cd /N/dc2/scratch/mhibbins/introgression_review_sims/
+java -jar PhyloNet/jar/PhyloNet_3.8.2.jar network_method_scripts/phylonet_s6_5taxa/phylonet_s6_5taxa_47.nexus > network_method_results/phylonet_s6_5taxa_results/phylonet_s6_5taxa_results_47.txt
+
